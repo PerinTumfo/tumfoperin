@@ -82,4 +82,5 @@ buttons.forEach(btn => {
 const yearSpan = document.querySelector('#year');
 if (yearSpan) {
     yearSpan.textContext = new Date().getFullYear();
-}
+};
+
