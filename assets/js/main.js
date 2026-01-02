@@ -76,4 +76,10 @@ buttons.forEach(btn => {
         btn.style.setProperty('--x', x + 'px');
         btn.style.setProperty('--y', y + 'px');
     });
+
 });
+
+const yearSpan = document.querySelector('#year');
+if (yearSpan) {
+    yearSpan.textContext = new Date().getFullYear();
+}
